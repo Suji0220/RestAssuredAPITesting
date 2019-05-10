@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-05-02T05:20:41Z" name="getRequestTests.ValidateResponseCodeTest" finished-at="2019-05-02T05:20:43Z" duration-ms="2612">
+    <groups>
+    </groups>
+    <test started-at="2019-05-02T05:20:41Z" name="Command line test" finished-at="2019-05-02T05:20:43Z" duration-ms="2612">
+      <class name="getRequestTests.ValidateResponseCodeTest">
+        <test-method signature="validateResonseCode()[pri:0, instance:getRequestTests.ValidateResponseCodeTest@56a6d5a6]" started-at="2019-05-02T05:20:41Z" name="validateResonseCode" finished-at="2019-05-02T05:20:43Z" duration-ms="2596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResonseCode -->
+      </class> <!-- getRequestTests.ValidateResponseCodeTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- getRequestTests.ValidateResponseCodeTest -->
+</testng-results>

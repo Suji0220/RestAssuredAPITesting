@@ -45,8 +45,10 @@ public class ValidateRegisterUser {
         }
         request.body(requestJson.toString());
         Response responseRegister = request.post("https://reqres.in/api/register");
+        System.out.println(responseRegister.getStatusCode());
         System.out.println("Response Body: " + responseRegister.getBody().asString());
-        Assert.assertEquals(responseRegister.getStatusCode(), 400);
+
+       Assert.assertEquals(responseRegister.getStatusCode(), 400);
 
     }
 
